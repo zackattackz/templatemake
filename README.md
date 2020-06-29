@@ -20,7 +20,7 @@ you can do that as well!
 ## Usage
 
 `templatemake` will always require 5 arguements, so it will be run in this form...
-`templatemake mode outfile_enabled templatefile datafile outfile
+`templatemake mode outfile_enabled templatefile datafile outfile`
 
 `mode` will be either: 
 * `n` for normal (template file and data file are given)
