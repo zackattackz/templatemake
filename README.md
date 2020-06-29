@@ -27,7 +27,7 @@ you can do that as well!
 * `d` for data (data file is given and template will be read from stdin)
 * `t` for template (template file is given and data will be read from stdin)
 
-if `outfile\_enabled` is "y" then the filled template will be directed to the file path specified by `outfile`.
+if `outfile_enabled` is "y" then the filled template will be directed to the file path specified by `outfile`.
 if it is anything other than "y" then output will go to stdout.
 
 `templatefile`, `datafile`, and `outfile` are paths to the respective files.
