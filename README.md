@@ -34,11 +34,17 @@ if it is anything other than "y" then output will go to stdout.
 `templatefile`, `datafile`, and `outfile` are paths to the respective files.
 
 For example if I have a file `template.txt` with the following:
+
 `Hello {{ name }}!`
+
 and a file `data.json` with the following:
-`{"name","john"}`
+
+`{"name":"john"}`
+
 then running `templatemake n no /path/to/template.txt /path/to/data.json -` will produce the output:
+
 `Hello john!`
 
 If I wanted to output that into a file `output.txt` I could run:
+
 `templatemake n y /path/to/template.txt /path/to/data.json /path/to/output.txt`
