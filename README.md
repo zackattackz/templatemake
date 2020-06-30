@@ -6,7 +6,7 @@ the filled out template to stdout. Optionally you can output the filled template
 If you only have a template file and want to read data from stdin, or if you have a data file and want to read template from stdin
 you can do that as well!
 
-## Requirements
+## Dependencies
 
 * [Inja](https://github.com/pantor/inja)
 * [nlohmann's json](https://github.com/nlohmann/json)
